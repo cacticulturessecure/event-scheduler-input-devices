@@ -1,0 +1,27 @@
+{
+    "output_directories": [
+        "/home/securemeup/recordings",
+        "/home/securemeup/google-drive/dev-testing-local-to-driveg"
+    ],
+    "video_recording": {
+        "camera": {
+            "vendor_id": "046d",
+            "product_id": "082d",
+            "name": "HD Pro Webcam C920",
+            "device_path": "/dev/video2"
+        },
+        "audio": {
+            "use_camera_mic": true,
+            "device_index": 1,
+            "sample_rate": 32000
+        }
+    },
+    "audio_only_recording": {
+        "device": {
+            "vendor_id": "2886",
+            "product_id": "0018",
+            "name": "ReSpeaker 4 Mic Array (UAC1.0)",
+            "device_index": 3
+        }
+    }
+}

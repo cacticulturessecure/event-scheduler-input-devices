@@ -1,0 +1,27 @@
+2024-10-14 15:16:00,330 - INFO - Script called with args: ['/home/securemeup/workspace/dev-workspace/event-scheduler-input-devices/ubuntu_create_local_singular_audio_recording.py', '240.0', 'continued_jensen_convo']
+2024-10-14 15:16:00,330 - INFO - Parsed arguments: total_duration=240.0, event_title=continued_jensen_convo
+2024-10-14 15:16:00,330 - INFO - Starting audio-only recording for event: continued_jensen_convo
+2024-10-14 15:19:00,330 - INFO - Script called with args: ['/home/securemeup/workspace/dev-workspace/event-scheduler-input-devices/ubuntu_create_local_singular_audio_recording.py', '60.0', 'continued_jensen_convo']
+2024-10-14 15:19:00,330 - INFO - Parsed arguments: total_duration=60.0, event_title=continued_jensen_convo
+2024-10-14 15:19:00,330 - INFO - Starting audio-only recording for event: continued_jensen_convo
+2024-10-14 15:19:00,331 - INFO - Audio-only recording started for 60.0 seconds using ReSpeaker
+2024-10-14 15:19:00,331 - INFO - Device: ReSpeaker 4 Mic Array (UAC1.0): USB Audio (hw:3,0), Sample rate: 16000, Channels: 6
+2024-10-14 15:20:00,217 - INFO - Script called with args: ['/home/securemeup/workspace/dev-workspace/event-scheduler-input-devices/ubuntu_create_local_singular_audio_recording.py', '300.0', 'round_3']
+2024-10-14 15:20:00,218 - INFO - Parsed arguments: total_duration=300.0, event_title=round_3
+2024-10-14 15:20:00,218 - INFO - Starting audio-only recording for event: round_3
+2024-10-14 15:20:00,218 - ERROR - Failed to record audio-only using ReSpeaker: Not an input device: 'hdmi'
+2024-10-14 15:20:00,218 - DEBUG - Exception details:
+Traceback (most recent call last):
+  File "/home/securemeup/workspace/dev-workspace/event-scheduler-input-devices/ubuntu_create_local_singular_audio_recording.py", line 40, in record_audio
+    device_info = sd.query_devices(device_index, 'input')
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/securemeup/workspace/dev-workspace/schedular/lib/python3.12/site-packages/sounddevice.py", line 604, in query_devices
+    raise ValueError(
+ValueError: Not an input device: 'hdmi'
+2024-10-14 15:20:00,219 - INFO - Audio-only recording process completed
+2024-10-14 15:20:00,350 - INFO - Audio-only recording completed
+2024-10-14 15:20:00,351 - INFO - Output folder ensured at: /home/securemeup/recordings/2024-10-14
+2024-10-14 15:20:00,390 - INFO - Audio-only recording saved to: /home/securemeup/recordings/2024-10-14/audio_only_continued_jensen_convo_20241014_152000.wav
+2024-10-14 15:20:00,390 - INFO - Output folder ensured at: /home/securemeup/google-drive/dev-testing-local-to-driveg/2024-10-14
+2024-10-14 15:20:00,409 - INFO - Audio-only recording saved to: /home/securemeup/google-drive/dev-testing-local-to-driveg/2024-10-14/audio_only_continued_jensen_convo_20241014_152000.wav
+2024-10-14 15:20:00,409 - INFO - Audio-only recording process completed
