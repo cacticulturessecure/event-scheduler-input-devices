@@ -1,0 +1,38 @@
+2024-10-14 14:51:10,563 - INFO - Starting ubuntu_create_local_singular_recording.py
+2024-10-14 14:51:10,563 - DEBUG - /etc/timezone found, contents:
+ America/Chicago
+
+2024-10-14 14:51:10,563 - DEBUG - /etc/localtime found
+2024-10-14 14:51:10,564 - DEBUG - 2 found:
+ {'/etc/timezone': 'America/Chicago', '/etc/localtime is a symlink to': 'America/Chicago'}
+2024-10-14 14:51:10,564 - DEBUG - Looking for events in directory: /home/securemeup/workspace/dev-workspace/event-scheduler-input-devices/media/exports
+2024-10-14 14:51:10,564 - WARNING - Export directory does not exist: /home/securemeup/workspace/dev-workspace/event-scheduler-input-devices/media/exports
+2024-10-14 14:51:10,564 - DEBUG - Current time: 2024-10-14 14:51:10.564687
+2024-10-14 14:51:10,564 - WARNING - No events found to schedule.
+2024-10-14 14:51:10,565 - INFO - Scheduler started
+2024-10-14 14:51:10,565 - DEBUG - Looking for jobs to run
+2024-10-14 14:51:10,565 - INFO - Scheduler started. Waiting for events...
+2024-10-14 14:51:10,565 - DEBUG - No jobs; waiting until a job is added
+2024-10-14 14:51:10,565 - INFO - Scheduler has been shut down
+2024-10-14 14:51:10,566 - INFO - Scheduler stopped.
+2024-10-14 14:51:10,566 - INFO - All scheduled events completed. Exiting.
+2024-10-14 14:51:36,774 - INFO - Starting ubuntu_create_local_singular_recording.py
+2024-10-14 14:51:36,774 - DEBUG - /etc/timezone found, contents:
+ America/Chicago
+
+2024-10-14 14:51:36,774 - DEBUG - /etc/localtime found
+2024-10-14 14:51:36,775 - DEBUG - 2 found:
+ {'/etc/timezone': 'America/Chicago', '/etc/localtime is a symlink to': 'America/Chicago'}
+2024-10-14 14:51:36,775 - DEBUG - Looking for events in directory: /home/securemeup/workspace/dev-workspace/event-scheduler-input-devices/media/exports
+2024-10-14 14:51:36,775 - WARNING - Export directory does not exist: /home/securemeup/workspace/dev-workspace/event-scheduler-input-devices/media/exports
+2024-10-14 14:51:36,775 - DEBUG - Current time: 2024-10-14 14:51:36.775888
+2024-10-14 14:51:36,775 - WARNING - No events found to schedule.
+2024-10-14 14:51:36,776 - INFO - Scheduler started
+2024-10-14 14:51:36,776 - DEBUG - Looking for jobs to run
+2024-10-14 14:51:36,776 - DEBUG - No jobs; waiting until a job is added
+2024-10-14 14:51:36,776 - INFO - Scheduler started. Waiting for events...
+2024-10-14 14:51:36,776 - INFO - Scheduler has been shut down
+2024-10-14 14:51:36,777 - DEBUG - Looking for jobs to run
+2024-10-14 14:51:36,777 - DEBUG - No jobs; waiting until a job is added
+2024-10-14 14:51:36,777 - INFO - Scheduler stopped.
+2024-10-14 14:51:36,777 - INFO - All scheduled events completed. Exiting.
