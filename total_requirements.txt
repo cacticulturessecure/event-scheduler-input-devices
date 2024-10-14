@@ -1,0 +1,2 @@
+pip install pyaudio opencv-python-headless numpy apscheduler scipy sounddevice
+sudo apt-get install ffmpeg pulseaudio v4l-utils

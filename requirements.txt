@@ -1,2 +1,5 @@
-pip install pyaudio opencv-python-headless numpy apscheduler scipy sounddevice
-sudo apt-get install ffmpeg
+apscheduler
+sounddevice
+opencv-python-headless
+numpy
+scipy
