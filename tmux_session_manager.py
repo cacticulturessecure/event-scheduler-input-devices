@@ -118,3 +118,33 @@ class TmuxSessionManager:
         self.devices_in_use.clear()
         time.sleep(2)  # Longer delay for force release
         logging.info("All devices forcefully released")
+
+    def force_release_all_devices(self):
+        logging.info("Force releasing all devices")
+        active_sessions = self.get_active_sessions()
+        for session in active_sessions:
+            if session.startswith('audio_') or session.startswith('video_'):
+                self.kill_session(session)
+        self._release_audio_device()
+        self._release_video_device()
+        self.devices_in_use.clear()
+        time.sleep(2)  # Longer delay for force release
+
+
+    def start_combination_process(self, video_file, audio_file, output_file):
+        logging.info("Starting combination process")
+        session_name = f"combine_{os.path.basename(output_file)}"
+        script_path = os.path.abspath("combine_audio_video.py")
+        command = f"python3 {script_path} {video_file} {audio_file} {output_file}"
+        logging.info(f"Combination command: {command}")
+        self.create_session(session_name, command)
+        return session_name
+
+    def terminate_all_sessions(self):
+        logging.info("Terminating all active recording sessions")
+        active_sessions = self.get_active_sessions()
+        for session in active_sessions:
+            if session.startswith('audio_') or session.startswith('video_'):
+                self.kill_session(session)
+                logging.info(f"Terminated session: {session}")
+        time.sleep(2)  # Give some time for sessions to fully terminate

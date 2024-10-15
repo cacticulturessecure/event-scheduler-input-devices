@@ -1,0 +1,22 @@
+{
+  "id": 35,
+  "title": "Chris and Catherine one on one",
+  "start_date": "2024-10-15",
+  "start_time": "10:30:00",
+  "end_date": "2024-10-15",
+  "end_time": "10:57:00",
+  "description": "",
+  "location": "",
+  "company": "Fastly Internal",
+  "opportunity": null,
+  "attendees": [
+    {
+      "id": 1,
+      "name": "Chris Taylor"
+    },
+    {
+      "id": 3,
+      "name": "Catherine"
+    }
+  ]
+}

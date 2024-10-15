@@ -3,3 +3,5 @@ sounddevice
 opencv-python-headless
 numpy
 scipy
+pyautogui
+psutil

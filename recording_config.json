@@ -23,5 +23,10 @@
             "name": "ReSpeaker 4 Mic Array (UAC1.0)",
             "device_index": 3
         }
+    },
+    "screen_capture": {
+        "framerate": 2,
+        "display": ":0",
+        "output_format": "mp4"
     }
 }

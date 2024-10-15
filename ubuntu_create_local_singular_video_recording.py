@@ -8,7 +8,6 @@ import logging
 import os
 from datetime import datetime
 import json
-import subprocess
 import scipy.io.wavfile as wavfile
 
 # Configure logging
@@ -69,7 +68,6 @@ def record_video_and_audio(total_duration, event_name):
 
                 video_filename = os.path.join(output_folder, f"video_{event_name}_{timestamp}.mp4")
                 audio_filename = os.path.join(output_folder, f"audio_{event_name}_{timestamp}.wav")
-                combined_filename = os.path.join(output_folder, f"combined_{event_name}_{timestamp}.mp4")
 
                 fourcc = cv2.VideoWriter_fourcc(*'mp4v')
                 out = cv2.VideoWriter(video_filename, fourcc, fps, (width, height))
@@ -83,24 +81,25 @@ def record_video_and_audio(total_duration, event_name):
 
                 with sd.InputStream(samplerate=samplerate, device=audio_device_index, channels=channels, callback=audio_callback):
                     start_time = datetime.now()
+                    frame_count = 0
                     while (datetime.now() - start_time).total_seconds() < total_duration:
                         ret, frame = cap.read()
                         if ret:
                             out.write(frame)
+                            frame_count += 1
                         else:
                             logging.warning("Failed to capture video frame")
 
                 out.release()
                 logging.info(f"Video saved to: {video_filename}")
+                logging.info(f"Total frames recorded: {frame_count}")
 
                 audio_data = np.concatenate(audio_frames, axis=0)
                 wavfile.write(audio_filename, samplerate, audio_data)
                 logging.info(f"Audio saved to: {audio_filename}")
 
-                # Combine video and audio
-                cmd = f"ffmpeg -i {video_filename} -i {audio_filename} -c:v copy -c:a aac {combined_filename}"
-                subprocess.run(cmd, shell=True, check=True)
-                logging.info(f"Combined video and audio saved to: {combined_filename}")
+                actual_fps = frame_count / total_duration
+                logging.info(f"Actual FPS: {actual_fps:.2f}")
 
             except Exception as e:
                 logging.error(f"Failed to save recordings for event '{event_name}': {e}")
@@ -113,6 +112,7 @@ def record_video_and_audio(total_duration, event_name):
         logging.debug("Exception details:", exc_info=True)
 
     logging.info(f"Video and audio recording process completed for event: {event_name}")
+
 
 if __name__ == "__main__":
     logging.info(f"Script called with args: {sys.argv}")

@@ -161,3 +161,140 @@ ValueError: Not an input device: 'hdmi'
 2024-10-14 16:50:02,360 - INFO - Output folder ensured at: /home/securemeup/google-drive/dev-testing-local-to-driveg/2024-10-14
 2024-10-14 16:50:02,376 - INFO - Audio-only recording saved to: /home/securemeup/google-drive/dev-testing-local-to-driveg/2024-10-14/audio_only_zoology_with_Kels_20241014_165002.wav
 2024-10-14 16:50:02,376 - INFO - Audio-only recording process completed
+2024-10-14 17:05:07,358 - INFO - Script called with args: ['/home/securemeup/workspace/dev-workspace/event-scheduler-input-devices/ubuntu_create_local_singular_audio_recording.py', '120.0', 'duo']
+2024-10-14 17:05:07,358 - INFO - Parsed arguments: total_duration=120.0, event_title=duo
+2024-10-14 17:05:07,358 - INFO - Starting audio-only recording for event: duo
+2024-10-14 17:05:07,359 - INFO - Audio-only recording started for 120.0 seconds using ReSpeaker
+2024-10-14 17:05:07,359 - INFO - Device: ReSpeaker 4 Mic Array (UAC1.0): USB Audio (hw:3,0), Sample rate: 16000, Channels: 6
+2024-10-14 17:07:07,377 - INFO - Audio-only recording completed
+2024-10-14 17:07:07,377 - INFO - Output folder ensured at: /home/securemeup/recordings/2024-10-14
+2024-10-14 17:07:07,411 - INFO - Audio-only recording saved to: /home/securemeup/recordings/2024-10-14/audio_only_duo_20241014_170707.wav
+2024-10-14 17:07:07,411 - INFO - Output folder ensured at: /home/securemeup/google-drive/dev-testing-local-to-driveg/2024-10-14
+2024-10-14 17:07:07,441 - INFO - Audio-only recording saved to: /home/securemeup/google-drive/dev-testing-local-to-driveg/2024-10-14/audio_only_duo_20241014_170707.wav
+2024-10-14 17:07:07,441 - INFO - Audio-only recording process completed
+2024-10-14 17:27:07,358 - INFO - Script called with args: ['/home/securemeup/workspace/dev-workspace/event-scheduler-input-devices/ubuntu_create_local_singular_audio_recording.py', '1080.0', 'before_kels_and_tommi']
+2024-10-14 17:27:07,358 - INFO - Parsed arguments: total_duration=1080.0, event_title=before_kels_and_tommi
+2024-10-14 17:27:07,358 - INFO - Starting audio-only recording for event: before_kels_and_tommi
+2024-10-14 17:27:07,358 - INFO - Audio-only recording started for 1080.0 seconds using ReSpeaker
+2024-10-14 17:27:07,358 - INFO - Device: ReSpeaker 4 Mic Array (UAC1.0): USB Audio (hw:3,0), Sample rate: 16000, Channels: 6
+2024-10-14 17:45:07,410 - INFO - Audio-only recording completed
+2024-10-14 17:45:07,410 - INFO - Output folder ensured at: /home/securemeup/recordings/2024-10-14
+2024-10-14 17:45:07,687 - INFO - Audio-only recording saved to: /home/securemeup/recordings/2024-10-14/audio_only_before_kels_and_tommi_20241014_174507.wav
+2024-10-14 17:45:07,687 - INFO - Output folder ensured at: /home/securemeup/google-drive/dev-testing-local-to-driveg/2024-10-14
+2024-10-14 17:45:07,971 - INFO - Audio-only recording saved to: /home/securemeup/google-drive/dev-testing-local-to-driveg/2024-10-14/audio_only_before_kels_and_tommi_20241014_174507.wav
+2024-10-14 17:45:07,971 - INFO - Audio-only recording process completed
+2024-10-14 18:28:04,360 - INFO - Script called with args: ['/home/securemeup/workspace/dev-workspace/event-scheduler-input-devices/ubuntu_create_local_singular_audio_recording.py', '1920.0', 'The_family_chilling_watching_movies']
+2024-10-14 18:28:04,360 - INFO - Parsed arguments: total_duration=1920.0, event_title=The_family_chilling_watching_movies
+2024-10-14 18:28:04,360 - INFO - Starting audio-only recording for event: The_family_chilling_watching_movies
+2024-10-14 18:28:04,360 - INFO - Audio-only recording started for 1920.0 seconds using ReSpeaker
+2024-10-14 18:28:04,360 - INFO - Device: ReSpeaker 4 Mic Array (UAC1.0): USB Audio (hw:3,0), Sample rate: 16000, Channels: 6
+2024-10-14 19:00:04,386 - INFO - Audio-only recording completed
+2024-10-14 19:00:04,386 - INFO - Output folder ensured at: /home/securemeup/recordings/2024-10-14
+2024-10-14 19:00:04,894 - INFO - Audio-only recording saved to: /home/securemeup/recordings/2024-10-14/audio_only_The_family_chilling_watching_movies_20241014_190004.wav
+2024-10-14 19:00:04,894 - INFO - Output folder ensured at: /home/securemeup/google-drive/dev-testing-local-to-driveg/2024-10-14
+2024-10-14 19:00:05,398 - INFO - Audio-only recording saved to: /home/securemeup/google-drive/dev-testing-local-to-driveg/2024-10-14/audio_only_The_family_chilling_watching_movies_20241014_190004.wav
+2024-10-14 19:00:05,398 - INFO - Audio-only recording process completed
+2024-10-15 08:47:04,370 - INFO - Script called with args: ['/home/securemeup/workspace/dev-workspace/event-scheduler-input-devices/ubuntu_create_local_singular_audio_recording.py', '480.0', 'Testing_prior_to_internal']
+2024-10-15 08:47:04,370 - INFO - Parsed arguments: total_duration=480.0, event_title=Testing_prior_to_internal
+2024-10-15 08:47:04,370 - INFO - Starting audio-only recording for event: Testing_prior_to_internal
+2024-10-15 08:47:04,370 - INFO - Audio-only recording started for 480.0 seconds using ReSpeaker
+2024-10-15 08:47:04,370 - INFO - Device: ReSpeaker 4 Mic Array (UAC1.0): USB Audio (hw:3,0), Sample rate: 16000, Channels: 6
+2024-10-15 08:55:04,394 - INFO - Audio-only recording completed
+2024-10-15 08:55:04,394 - INFO - Output folder ensured at: /home/securemeup/recordings/2024-10-15
+2024-10-15 08:55:04,527 - INFO - Audio-only recording saved to: /home/securemeup/recordings/2024-10-15/audio_only_Testing_prior_to_internal_20241015_085504.wav
+2024-10-15 08:55:04,527 - INFO - Output folder ensured at: /home/securemeup/google-drive/dev-testing-local-to-driveg/2024-10-15
+2024-10-15 08:55:04,660 - INFO - Audio-only recording saved to: /home/securemeup/google-drive/dev-testing-local-to-driveg/2024-10-15/audio_only_Testing_prior_to_internal_20241015_085504.wav
+2024-10-15 08:55:04,660 - INFO - Audio-only recording process completed
+2024-10-15 09:00:04,371 - INFO - Script called with args: ['/home/securemeup/workspace/dev-workspace/event-scheduler-input-devices/ubuntu_create_local_singular_audio_recording.py', '1800.0', 'Internal_MGIC_sync']
+2024-10-15 09:00:04,372 - INFO - Parsed arguments: total_duration=1800.0, event_title=Internal_MGIC_sync
+2024-10-15 09:00:04,372 - INFO - Starting audio-only recording for event: Internal_MGIC_sync
+2024-10-15 09:00:04,372 - INFO - Audio-only recording started for 1800.0 seconds using ReSpeaker
+2024-10-15 09:00:04,372 - INFO - Device: ReSpeaker 4 Mic Array (UAC1.0): USB Audio (hw:3,0), Sample rate: 16000, Channels: 6
+2024-10-15 09:30:04,243 - INFO - Audio-only recording completed
+2024-10-15 09:30:04,244 - INFO - Output folder ensured at: /home/securemeup/recordings/2024-10-15
+2024-10-15 09:30:04,746 - INFO - Audio-only recording saved to: /home/securemeup/recordings/2024-10-15/audio_only_Internal_MGIC_sync_20241015_093004.wav
+2024-10-15 09:30:04,746 - INFO - Output folder ensured at: /home/securemeup/google-drive/dev-testing-local-to-driveg/2024-10-15
+2024-10-15 09:30:05,271 - INFO - Audio-only recording saved to: /home/securemeup/google-drive/dev-testing-local-to-driveg/2024-10-15/audio_only_Internal_MGIC_sync_20241015_093004.wav
+2024-10-15 09:30:05,271 - INFO - Audio-only recording process completed
+2024-10-15 09:45:04,381 - INFO - Script called with args: ['/home/securemeup/workspace/dev-workspace/event-scheduler-input-devices/ubuntu_create_local_singular_audio_recording.py', '180.0', 'recording_my_screen']
+2024-10-15 09:45:04,381 - INFO - Parsed arguments: total_duration=180.0, event_title=recording_my_screen
+2024-10-15 09:45:04,382 - INFO - Starting audio-only recording for event: recording_my_screen
+2024-10-15 09:45:04,382 - INFO - Audio-only recording started for 180.0 seconds using ReSpeaker
+2024-10-15 09:45:04,382 - INFO - Device: ReSpeaker 4 Mic Array (UAC1.0): USB Audio (hw:3,0), Sample rate: 16000, Channels: 6
+2024-10-15 09:48:04,384 - INFO - Audio-only recording completed
+2024-10-15 09:48:04,385 - INFO - Output folder ensured at: /home/securemeup/recordings/2024-10-15
+2024-10-15 09:48:04,436 - INFO - Audio-only recording saved to: /home/securemeup/recordings/2024-10-15/audio_only_recording_my_screen_20241015_094804.wav
+2024-10-15 09:48:04,436 - INFO - Output folder ensured at: /home/securemeup/google-drive/dev-testing-local-to-driveg/2024-10-15
+2024-10-15 09:48:04,486 - INFO - Audio-only recording saved to: /home/securemeup/google-drive/dev-testing-local-to-driveg/2024-10-15/audio_only_recording_my_screen_20241015_094804.wav
+2024-10-15 09:48:04,486 - INFO - Audio-only recording process completed
+2024-10-15 10:17:04,360 - INFO - Script called with args: ['/home/securemeup/workspace/dev-workspace/event-scheduler-input-devices/ubuntu_create_local_singular_audio_recording.py', '120.0', 'go_for_gold']
+2024-10-15 10:17:04,360 - INFO - Parsed arguments: total_duration=120.0, event_title=go_for_gold
+2024-10-15 10:17:04,360 - INFO - Starting audio-only recording for event: go_for_gold
+2024-10-15 10:17:04,360 - INFO - Audio-only recording started for 120.0 seconds using ReSpeaker
+2024-10-15 10:17:04,360 - INFO - Device: ReSpeaker 4 Mic Array (UAC1.0): USB Audio (hw:3,0), Sample rate: 16000, Channels: 6
+2024-10-15 10:19:04,169 - INFO - Audio-only recording completed
+2024-10-15 10:19:04,170 - INFO - Output folder ensured at: /home/securemeup/recordings/2024-10-15
+2024-10-15 10:19:04,206 - INFO - Audio-only recording saved to: /home/securemeup/recordings/2024-10-15/audio_only_go_for_gold_20241015_101904.wav
+2024-10-15 10:19:04,206 - INFO - Output folder ensured at: /home/securemeup/google-drive/dev-testing-local-to-driveg/2024-10-15
+2024-10-15 10:19:04,238 - INFO - Audio-only recording saved to: /home/securemeup/google-drive/dev-testing-local-to-driveg/2024-10-15/audio_only_go_for_gold_20241015_101904.wav
+2024-10-15 10:19:04,238 - INFO - Audio-only recording process completed
+2024-10-15 10:30:04,360 - INFO - Script called with args: ['/home/securemeup/workspace/dev-workspace/event-scheduler-input-devices/ubuntu_create_local_singular_audio_recording.py', '1620.0', 'Chris_and_Catherine_one_on_one']
+2024-10-15 10:30:04,360 - INFO - Parsed arguments: total_duration=1620.0, event_title=Chris_and_Catherine_one_on_one
+2024-10-15 10:30:04,361 - INFO - Starting audio-only recording for event: Chris_and_Catherine_one_on_one
+2024-10-15 10:30:04,361 - INFO - Audio-only recording started for 1620.0 seconds using ReSpeaker
+2024-10-15 10:30:04,361 - INFO - Device: ReSpeaker 4 Mic Array (UAC1.0): USB Audio (hw:3,0), Sample rate: 16000, Channels: 6
+2024-10-15 10:57:04,285 - INFO - Audio-only recording completed
+2024-10-15 10:57:04,286 - INFO - Output folder ensured at: /home/securemeup/recordings/2024-10-15
+2024-10-15 10:57:04,757 - INFO - Audio-only recording saved to: /home/securemeup/recordings/2024-10-15/audio_only_Chris_and_Catherine_one_on_one_20241015_105704.wav
+2024-10-15 10:57:04,757 - INFO - Output folder ensured at: /home/securemeup/google-drive/dev-testing-local-to-driveg/2024-10-15
+2024-10-15 10:57:05,254 - INFO - Audio-only recording saved to: /home/securemeup/google-drive/dev-testing-local-to-driveg/2024-10-15/audio_only_Chris_and_Catherine_one_on_one_20241015_105704.wav
+2024-10-15 10:57:05,255 - INFO - Audio-only recording process completed
+2024-10-15 11:00:04,362 - INFO - Script called with args: ['/home/securemeup/workspace/dev-workspace/event-scheduler-input-devices/ubuntu_create_local_singular_audio_recording.py', '3600.0', 'Ashley_Furniture']
+2024-10-15 11:00:04,362 - INFO - Parsed arguments: total_duration=3600.0, event_title=Ashley_Furniture
+2024-10-15 11:00:04,362 - INFO - Starting audio-only recording for event: Ashley_Furniture
+2024-10-15 11:00:04,362 - INFO - Audio-only recording started for 3600.0 seconds using ReSpeaker
+2024-10-15 11:00:04,362 - INFO - Device: ReSpeaker 4 Mic Array (UAC1.0): USB Audio (hw:3,0), Sample rate: 16000, Channels: 6
+2024-10-15 12:00:04,419 - INFO - Audio-only recording completed
+2024-10-15 12:00:04,419 - INFO - Output folder ensured at: /home/securemeup/recordings/2024-10-15
+2024-10-15 12:00:05,516 - INFO - Audio-only recording saved to: /home/securemeup/recordings/2024-10-15/audio_only_Ashley_Furniture_20241015_120004.wav
+2024-10-15 12:00:05,517 - INFO - Output folder ensured at: /home/securemeup/google-drive/dev-testing-local-to-driveg/2024-10-15
+2024-10-15 12:00:06,912 - INFO - Audio-only recording saved to: /home/securemeup/google-drive/dev-testing-local-to-driveg/2024-10-15/audio_only_Ashley_Furniture_20241015_120004.wav
+2024-10-15 12:00:06,913 - INFO - Audio-only recording process completed
+2024-10-15 13:26:04,379 - INFO - Script called with args: ['/home/securemeup/workspace/dev-workspace/event-scheduler-input-devices/ubuntu_create_local_singular_audio_recording.py', '540.0', 'Working_on_recording_process_while_watching_george_holtz_tiny_grad_franchising']
+2024-10-15 13:26:04,379 - INFO - Parsed arguments: total_duration=540.0, event_title=Working_on_recording_process_while_watching_george_holtz_tiny_grad_franchising
+2024-10-15 13:26:04,379 - INFO - Starting audio-only recording for event: Working_on_recording_process_while_watching_george_holtz_tiny_grad_franchising
+2024-10-15 13:26:04,379 - INFO - Audio-only recording started for 540.0 seconds using ReSpeaker
+2024-10-15 13:26:04,379 - INFO - Device: ReSpeaker 4 Mic Array (UAC1.0): USB Audio (hw:3,0), Sample rate: 16000, Channels: 6
+2024-10-15 13:35:04,308 - INFO - Script called with args: ['/home/securemeup/workspace/dev-workspace/event-scheduler-input-devices/ubuntu_create_local_singular_audio_recording.py', '600.0', 'test_5']
+2024-10-15 13:35:04,317 - INFO - Parsed arguments: total_duration=600.0, event_title=test_5
+2024-10-15 13:35:04,317 - INFO - Starting audio-only recording for event: test_5
+2024-10-15 13:35:04,317 - INFO - Audio-only recording started for 600.0 seconds using ReSpeaker
+2024-10-15 13:35:04,317 - INFO - Device: ReSpeaker 4 Mic Array (UAC1.0): USB Audio (hw:3,0), Sample rate: 16000, Channels: 6
+2024-10-15 13:45:04,345 - INFO - Audio-only recording completed
+2024-10-15 13:45:04,345 - INFO - Output folder ensured at: /home/securemeup/recordings/2024-10-15
+2024-10-15 13:45:04,508 - INFO - Audio-only recording saved to: /home/securemeup/recordings/2024-10-15/audio_only_test_5_20241015_134504.wav
+2024-10-15 13:45:04,508 - INFO - Output folder ensured at: /home/securemeup/google-drive/dev-testing-local-to-driveg/2024-10-15
+2024-10-15 13:45:04,671 - INFO - Audio-only recording saved to: /home/securemeup/google-drive/dev-testing-local-to-driveg/2024-10-15/audio_only_test_5_20241015_134504.wav
+2024-10-15 13:45:04,671 - INFO - Audio-only recording process completed
+2024-10-15 13:49:04,367 - INFO - Script called with args: ['/home/securemeup/workspace/dev-workspace/event-scheduler-input-devices/ubuntu_create_local_singular_audio_recording.py', '360.0', 'Removed_the_screen_capture_and_starting_recording_pre_team_call']
+2024-10-15 13:49:04,367 - INFO - Parsed arguments: total_duration=360.0, event_title=Removed_the_screen_capture_and_starting_recording_pre_team_call
+2024-10-15 13:49:04,367 - INFO - Starting audio-only recording for event: Removed_the_screen_capture_and_starting_recording_pre_team_call
+2024-10-15 13:49:04,368 - INFO - Audio-only recording started for 360.0 seconds using ReSpeaker
+2024-10-15 13:49:04,368 - INFO - Device: ReSpeaker 4 Mic Array (UAC1.0): USB Audio (hw:3,0), Sample rate: 16000, Channels: 6
+2024-10-15 13:55:04,387 - INFO - Audio-only recording completed
+2024-10-15 13:55:04,388 - INFO - Output folder ensured at: /home/securemeup/recordings/2024-10-15
+2024-10-15 13:55:04,488 - INFO - Audio-only recording saved to: /home/securemeup/recordings/2024-10-15/audio_only_Removed_the_screen_capture_and_starting_recording_pre_team_call_20241015_135504.wav
+2024-10-15 13:55:04,489 - INFO - Output folder ensured at: /home/securemeup/google-drive/dev-testing-local-to-driveg/2024-10-15
+2024-10-15 13:55:04,586 - INFO - Audio-only recording saved to: /home/securemeup/google-drive/dev-testing-local-to-driveg/2024-10-15/audio_only_Removed_the_screen_capture_and_starting_recording_pre_team_call_20241015_135504.wav
+2024-10-15 13:55:04,586 - INFO - Audio-only recording process completed
+2024-10-15 14:01:04,370 - INFO - Script called with args: ['/home/securemeup/workspace/dev-workspace/event-scheduler-input-devices/ubuntu_create_local_singular_audio_recording.py', '1740.0', 'viken_chloe_and_chris_sync']
+2024-10-15 14:01:04,371 - INFO - Parsed arguments: total_duration=1740.0, event_title=viken_chloe_and_chris_sync
+2024-10-15 14:01:04,371 - INFO - Starting audio-only recording for event: viken_chloe_and_chris_sync
+2024-10-15 14:01:04,371 - INFO - Audio-only recording started for 1740.0 seconds using ReSpeaker
+2024-10-15 14:01:04,371 - INFO - Device: ReSpeaker 4 Mic Array (UAC1.0): USB Audio (hw:3,0), Sample rate: 16000, Channels: 6
+2024-10-15 14:30:04,408 - INFO - Audio-only recording completed
+2024-10-15 14:30:04,408 - INFO - Output folder ensured at: /home/securemeup/recordings/2024-10-15
+2024-10-15 14:30:04,915 - INFO - Audio-only recording saved to: /home/securemeup/recordings/2024-10-15/audio_only_viken_chloe_and_chris_sync_20241015_143004.wav
+2024-10-15 14:30:04,915 - INFO - Output folder ensured at: /home/securemeup/google-drive/dev-testing-local-to-driveg/2024-10-15
+2024-10-15 14:30:05,407 - INFO - Audio-only recording saved to: /home/securemeup/google-drive/dev-testing-local-to-driveg/2024-10-15/audio_only_viken_chloe_and_chris_sync_20241015_143004.wav
+2024-10-15 14:30:05,407 - INFO - Audio-only recording process completed

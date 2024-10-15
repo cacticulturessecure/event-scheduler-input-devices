@@ -1,0 +1,4 @@
+#sudo apt-get
+
+x11-utils
+ffmpeg

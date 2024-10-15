@@ -141,3 +141,121 @@
 2024-10-14 16:51:03,406 - INFO - Audio saved to: /home/securemeup/google-drive/dev-testing-local-to-driveg/2024-10-14/audio_zoology_with_Kels_20241014_164902.wav
 2024-10-14 16:51:03,979 - INFO - Combined video and audio saved to: /home/securemeup/google-drive/dev-testing-local-to-driveg/2024-10-14/combined_zoology_with_Kels_20241014_164902.mp4
 2024-10-14 16:51:04,037 - INFO - Video and audio recording process completed for event: zoology_with_Kels
+2024-10-14 17:05:07,512 - INFO - Script called with args: ['/home/securemeup/workspace/dev-workspace/event-scheduler-input-devices/ubuntu_create_local_singular_video_recording.py', '120.0', 'duo']
+2024-10-14 17:05:07,513 - INFO - Parsed arguments: total_duration=120.0, event_name=duo
+2024-10-14 17:05:07,513 - INFO - Starting video and audio recording for event: duo
+2024-10-14 17:05:07,527 - INFO - Video capture initialized: 640x480 @ 30 fps
+2024-10-14 17:05:07,527 - INFO - Audio capture initialized: Device index 1, Sample rate: 32000
+2024-10-14 17:07:07,634 - INFO - Video saved to: /home/securemeup/recordings/2024-10-14/video_duo_20241014_170507.mp4
+2024-10-14 17:07:07,653 - INFO - Audio saved to: /home/securemeup/recordings/2024-10-14/audio_duo_20241014_170507.wav
+2024-10-14 17:07:08,631 - INFO - Combined video and audio saved to: /home/securemeup/recordings/2024-10-14/combined_duo_20241014_170507.mp4
+2024-10-14 17:09:08,770 - INFO - Video saved to: /home/securemeup/google-drive/dev-testing-local-to-driveg/2024-10-14/video_duo_20241014_170507.mp4
+2024-10-14 17:09:08,790 - INFO - Audio saved to: /home/securemeup/google-drive/dev-testing-local-to-driveg/2024-10-14/audio_duo_20241014_170507.wav
+2024-10-14 17:09:09,750 - INFO - Combined video and audio saved to: /home/securemeup/google-drive/dev-testing-local-to-driveg/2024-10-14/combined_duo_20241014_170507.mp4
+2024-10-14 17:09:09,829 - INFO - Video and audio recording process completed for event: duo
+2024-10-14 17:27:07,531 - INFO - Script called with args: ['/home/securemeup/workspace/dev-workspace/event-scheduler-input-devices/ubuntu_create_local_singular_video_recording.py', '1080.0', 'before_kels_and_tommi']
+2024-10-14 17:27:07,531 - INFO - Parsed arguments: total_duration=1080.0, event_name=before_kels_and_tommi
+2024-10-14 17:27:07,531 - INFO - Starting video and audio recording for event: before_kels_and_tommi
+2024-10-14 17:27:07,546 - INFO - Video capture initialized: 640x480 @ 30 fps
+2024-10-14 17:27:07,546 - INFO - Audio capture initialized: Device index 1, Sample rate: 32000
+2024-10-14 17:45:07,671 - INFO - Video saved to: /home/securemeup/recordings/2024-10-14/video_before_kels_and_tommi_20241014_172707.mp4
+2024-10-14 17:45:07,843 - INFO - Audio saved to: /home/securemeup/recordings/2024-10-14/audio_before_kels_and_tommi_20241014_172707.wav
+2024-10-14 17:45:15,859 - INFO - Combined video and audio saved to: /home/securemeup/recordings/2024-10-14/combined_before_kels_and_tommi_20241014_172707.mp4
+2024-10-14 18:28:04,543 - INFO - Script called with args: ['/home/securemeup/workspace/dev-workspace/event-scheduler-input-devices/ubuntu_create_local_singular_video_recording.py', '1920.0', 'The_family_chilling_watching_movies']
+2024-10-14 18:28:04,543 - INFO - Parsed arguments: total_duration=1920.0, event_name=The_family_chilling_watching_movies
+2024-10-14 18:28:04,543 - INFO - Starting video and audio recording for event: The_family_chilling_watching_movies
+2024-10-14 18:28:04,558 - INFO - Video capture initialized: 640x480 @ 30 fps
+2024-10-14 18:28:04,558 - INFO - Audio capture initialized: Device index 1, Sample rate: 32000
+2024-10-14 19:00:04,659 - INFO - Video saved to: /home/securemeup/recordings/2024-10-14/video_The_family_chilling_watching_movies_20241014_182804.mp4
+2024-10-14 19:00:04,965 - INFO - Audio saved to: /home/securemeup/recordings/2024-10-14/audio_The_family_chilling_watching_movies_20241014_182804.wav
+2024-10-14 19:00:18,946 - INFO - Combined video and audio saved to: /home/securemeup/recordings/2024-10-14/combined_The_family_chilling_watching_movies_20241014_182804.mp4
+2024-10-15 08:47:04,553 - INFO - Script called with args: ['/home/securemeup/workspace/dev-workspace/event-scheduler-input-devices/ubuntu_create_local_singular_video_recording.py', '480.0', 'Testing_prior_to_internal']
+2024-10-15 08:47:04,554 - INFO - Parsed arguments: total_duration=480.0, event_name=Testing_prior_to_internal
+2024-10-15 08:47:04,554 - INFO - Starting video and audio recording for event: Testing_prior_to_internal
+2024-10-15 08:47:04,569 - INFO - Video capture initialized: 640x480 @ 30 fps
+2024-10-15 08:47:04,570 - INFO - Audio capture initialized: Device index 1, Sample rate: 32000
+2024-10-15 08:55:04,664 - INFO - Video saved to: /home/securemeup/recordings/2024-10-15/video_Testing_prior_to_internal_20241015_084704.mp4
+2024-10-15 08:55:04,664 - INFO - Total frames recorded: 14268
+2024-10-15 08:55:04,664 - INFO - Actual FPS: 29.73
+2024-10-15 08:55:04,742 - INFO - Audio saved to: /home/securemeup/recordings/2024-10-15/audio_Testing_prior_to_internal_20241015_084704.wav
+2024-10-15 08:55:08,250 - INFO - Combined video and audio saved to: /home/securemeup/recordings/2024-10-15/combined_Testing_prior_to_internal_20241015_084704.mp4
+2024-10-15 09:00:04,518 - INFO - Script called with args: ['/home/securemeup/workspace/dev-workspace/event-scheduler-input-devices/ubuntu_create_local_singular_video_recording.py', '1800.0', 'Internal_MGIC_sync']
+2024-10-15 09:00:04,518 - INFO - Parsed arguments: total_duration=1800.0, event_name=Internal_MGIC_sync
+2024-10-15 09:00:04,518 - INFO - Starting video and audio recording for event: Internal_MGIC_sync
+2024-10-15 09:00:04,532 - INFO - Video capture initialized: 640x480 @ 30 fps
+2024-10-15 09:00:04,532 - INFO - Audio capture initialized: Device index 1, Sample rate: 32000
+2024-10-15 09:30:04,672 - INFO - Video saved to: /home/securemeup/recordings/2024-10-15/video_Internal_MGIC_sync_20241015_090004.mp4
+2024-10-15 09:30:04,672 - INFO - Total frames recorded: 42166
+2024-10-15 09:30:04,672 - INFO - Actual FPS: 23.43
+2024-10-15 09:30:05,001 - INFO - Audio saved to: /home/securemeup/recordings/2024-10-15/audio_Internal_MGIC_sync_20241015_090004.wav
+2024-10-15 09:30:16,745 - INFO - Combined video and audio saved to: /home/securemeup/recordings/2024-10-15/combined_Internal_MGIC_sync_20241015_090004.mp4
+2024-10-15 09:45:04,539 - INFO - Script called with args: ['/home/securemeup/workspace/dev-workspace/event-scheduler-input-devices/ubuntu_create_local_singular_video_recording.py', '180.0', 'recording_my_screen']
+2024-10-15 09:45:04,539 - INFO - Parsed arguments: total_duration=180.0, event_name=recording_my_screen
+2024-10-15 09:45:04,539 - INFO - Starting video and audio recording for event: recording_my_screen
+2024-10-15 09:45:04,554 - INFO - Video capture initialized: 640x480 @ 30 fps
+2024-10-15 09:45:04,554 - INFO - Audio capture initialized: Device index 1, Sample rate: 32000
+2024-10-15 09:48:04,674 - INFO - Video saved to: /home/securemeup/recordings/2024-10-15/video_recording_my_screen_20241015_094504.mp4
+2024-10-15 09:48:04,675 - INFO - Total frames recorded: 4287
+2024-10-15 09:48:04,703 - INFO - Audio saved to: /home/securemeup/recordings/2024-10-15/audio_recording_my_screen_20241015_094504.wav
+2024-10-15 09:48:04,703 - INFO - Actual FPS: 23.82
+2024-10-15 09:48:12,096 - INFO - Combined video and audio saved to: /home/securemeup/recordings/2024-10-15/combined_recording_my_screen_20241015_094504.mp4
+2024-10-15 10:17:04,530 - INFO - Script called with args: ['/home/securemeup/workspace/dev-workspace/event-scheduler-input-devices/ubuntu_create_local_singular_video_recording.py', '120.0', 'go_for_gold']
+2024-10-15 10:17:04,530 - INFO - Parsed arguments: total_duration=120.0, event_name=go_for_gold
+2024-10-15 10:17:04,530 - INFO - Starting video and audio recording for event: go_for_gold
+2024-10-15 10:17:04,545 - INFO - Video capture initialized: 640x480 @ 30 fps
+2024-10-15 10:17:04,545 - INFO - Audio capture initialized: Device index 1, Sample rate: 32000
+2024-10-15 10:19:04,637 - INFO - Video saved to: /home/securemeup/recordings/2024-10-15/video_go_for_gold_20241015_101704.mp4
+2024-10-15 10:19:04,637 - INFO - Total frames recorded: 3343
+2024-10-15 10:19:04,657 - INFO - Audio saved to: /home/securemeup/recordings/2024-10-15/audio_go_for_gold_20241015_101704.wav
+2024-10-15 10:19:04,657 - INFO - Actual FPS: 27.86
+2024-10-15 10:19:14,560 - INFO - Combined video and audio saved to: /home/securemeup/recordings/2024-10-15/combined_go_for_gold_20241015_101704.mp4
+2024-10-15 10:30:04,528 - INFO - Script called with args: ['/home/securemeup/workspace/dev-workspace/event-scheduler-input-devices/ubuntu_create_local_singular_video_recording.py', '1620.0', 'Chris_and_Catherine_one_on_one']
+2024-10-15 10:30:04,528 - INFO - Parsed arguments: total_duration=1620.0, event_name=Chris_and_Catherine_one_on_one
+2024-10-15 10:30:04,528 - INFO - Starting video and audio recording for event: Chris_and_Catherine_one_on_one
+2024-10-15 10:30:04,545 - INFO - Video capture initialized: 640x480 @ 30 fps
+2024-10-15 10:30:04,545 - INFO - Audio capture initialized: Device index 1, Sample rate: 32000
+2024-10-15 10:57:04,634 - INFO - Video saved to: /home/securemeup/recordings/2024-10-15/video_Chris_and_Catherine_one_on_one_20241015_103004.mp4
+2024-10-15 10:57:04,634 - INFO - Total frames recorded: 48589
+2024-10-15 10:57:04,945 - INFO - Audio saved to: /home/securemeup/recordings/2024-10-15/audio_Chris_and_Catherine_one_on_one_20241015_103004.wav
+2024-10-15 10:57:04,945 - INFO - Actual FPS: 29.99
+2024-10-15 11:00:04,539 - INFO - Script called with args: ['/home/securemeup/workspace/dev-workspace/event-scheduler-input-devices/ubuntu_create_local_singular_video_recording.py', '3600.0', 'Ashley_Furniture']
+2024-10-15 11:00:04,539 - INFO - Parsed arguments: total_duration=3600.0, event_name=Ashley_Furniture
+2024-10-15 11:00:04,539 - INFO - Starting video and audio recording for event: Ashley_Furniture
+2024-10-15 11:00:04,554 - INFO - Video capture initialized: 640x480 @ 30 fps
+2024-10-15 11:00:04,554 - INFO - Audio capture initialized: Device index 1, Sample rate: 32000
+2024-10-15 12:00:04,670 - INFO - Video saved to: /home/securemeup/recordings/2024-10-15/video_Ashley_Furniture_20241015_110004.mp4
+2024-10-15 12:00:04,671 - INFO - Total frames recorded: 104141
+2024-10-15 12:00:05,709 - INFO - Audio saved to: /home/securemeup/recordings/2024-10-15/audio_Ashley_Furniture_20241015_110004.wav
+2024-10-15 12:00:05,709 - INFO - Actual FPS: 28.93
+2024-10-15 13:26:04,585 - INFO - Script called with args: ['/home/securemeup/workspace/dev-workspace/event-scheduler-input-devices/ubuntu_create_local_singular_video_recording.py', '540.0', 'Working_on_recording_process_while_watching_george_holtz_tiny_grad_franchising']
+2024-10-15 13:26:04,585 - INFO - Parsed arguments: total_duration=540.0, event_name=Working_on_recording_process_while_watching_george_holtz_tiny_grad_franchising
+2024-10-15 13:26:04,585 - INFO - Starting video and audio recording for event: Working_on_recording_process_while_watching_george_holtz_tiny_grad_franchising
+2024-10-15 13:26:04,600 - INFO - Video capture initialized: 640x480 @ 30 fps
+2024-10-15 13:26:04,600 - INFO - Audio capture initialized: Device index 1, Sample rate: 32000
+2024-10-15 13:35:04,477 - INFO - Script called with args: ['/home/securemeup/workspace/dev-workspace/event-scheduler-input-devices/ubuntu_create_local_singular_video_recording.py', '600.0', 'test_5']
+2024-10-15 13:35:04,477 - INFO - Parsed arguments: total_duration=600.0, event_name=test_5
+2024-10-15 13:35:04,477 - INFO - Starting video and audio recording for event: test_5
+2024-10-15 13:35:04,495 - INFO - Video capture initialized: 640x480 @ 30 fps
+2024-10-15 13:35:04,495 - INFO - Audio capture initialized: Device index 1, Sample rate: 32000
+2024-10-15 13:45:04,600 - INFO - Video saved to: /home/securemeup/recordings/2024-10-15/video_test_5_20241015_133504.mp4
+2024-10-15 13:45:04,600 - INFO - Total frames recorded: 17993
+2024-10-15 13:45:04,697 - INFO - Audio saved to: /home/securemeup/recordings/2024-10-15/audio_test_5_20241015_133504.wav
+2024-10-15 13:45:04,697 - INFO - Actual FPS: 29.99
+2024-10-15 13:49:04,528 - INFO - Script called with args: ['/home/securemeup/workspace/dev-workspace/event-scheduler-input-devices/ubuntu_create_local_singular_video_recording.py', '360.0', 'Removed_the_screen_capture_and_starting_recording_pre_team_call']
+2024-10-15 13:49:04,528 - INFO - Parsed arguments: total_duration=360.0, event_name=Removed_the_screen_capture_and_starting_recording_pre_team_call
+2024-10-15 13:49:04,528 - INFO - Starting video and audio recording for event: Removed_the_screen_capture_and_starting_recording_pre_team_call
+2024-10-15 13:49:04,544 - INFO - Video capture initialized: 640x480 @ 30 fps
+2024-10-15 13:49:04,544 - INFO - Audio capture initialized: Device index 1, Sample rate: 32000
+2024-10-15 13:55:04,637 - INFO - Video saved to: /home/securemeup/recordings/2024-10-15/video_Removed_the_screen_capture_and_starting_recording_pre_team_call_20241015_134904.mp4
+2024-10-15 13:55:04,637 - INFO - Total frames recorded: 10624
+2024-10-15 13:55:04,695 - INFO - Audio saved to: /home/securemeup/recordings/2024-10-15/audio_Removed_the_screen_capture_and_starting_recording_pre_team_call_20241015_134904.wav
+2024-10-15 13:55:04,695 - INFO - Actual FPS: 29.51
+2024-10-15 14:01:04,556 - INFO - Script called with args: ['/home/securemeup/workspace/dev-workspace/event-scheduler-input-devices/ubuntu_create_local_singular_video_recording.py', '1740.0', 'viken_chloe_and_chris_sync']
+2024-10-15 14:01:04,556 - INFO - Parsed arguments: total_duration=1740.0, event_name=viken_chloe_and_chris_sync
+2024-10-15 14:01:04,556 - INFO - Starting video and audio recording for event: viken_chloe_and_chris_sync
+2024-10-15 14:01:04,571 - INFO - Video capture initialized: 640x480 @ 30 fps
+2024-10-15 14:01:04,571 - INFO - Audio capture initialized: Device index 1, Sample rate: 32000
+2024-10-15 14:30:04,657 - INFO - Video saved to: /home/securemeup/recordings/2024-10-15/video_viken_chloe_and_chris_sync_20241015_140104.mp4
+2024-10-15 14:30:04,657 - INFO - Total frames recorded: 52099
+2024-10-15 14:30:04,974 - INFO - Audio saved to: /home/securemeup/recordings/2024-10-15/audio_viken_chloe_and_chris_sync_20241015_140104.wav
+2024-10-15 14:30:04,974 - INFO - Actual FPS: 29.94
