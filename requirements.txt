@@ -5,3 +5,8 @@ numpy
 scipy
 pyautogui
 psutil
+pynput 
+Pillow
+keyboard
+python-xlib
+mss

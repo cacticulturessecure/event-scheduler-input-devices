@@ -298,3 +298,14 @@ ValueError: Not an input device: 'hdmi'
 2024-10-15 14:30:04,915 - INFO - Output folder ensured at: /home/securemeup/google-drive/dev-testing-local-to-driveg/2024-10-15
 2024-10-15 14:30:05,407 - INFO - Audio-only recording saved to: /home/securemeup/google-drive/dev-testing-local-to-driveg/2024-10-15/audio_only_viken_chloe_and_chris_sync_20241015_143004.wav
 2024-10-15 14:30:05,407 - INFO - Audio-only recording process completed
+2024-10-15 14:49:04,353 - INFO - Script called with args: ['/home/securemeup/workspace/dev-workspace/event-scheduler-input-devices/ubuntu_create_local_singular_audio_recording.py', '660.0', 'recoring_round_3']
+2024-10-15 14:49:04,353 - INFO - Parsed arguments: total_duration=660.0, event_title=recoring_round_3
+2024-10-15 14:49:04,353 - INFO - Starting audio-only recording for event: recoring_round_3
+2024-10-15 14:49:04,354 - INFO - Audio-only recording started for 660.0 seconds using ReSpeaker
+2024-10-15 14:49:04,354 - INFO - Device: ReSpeaker 4 Mic Array (UAC1.0): USB Audio (hw:3,0), Sample rate: 16000, Channels: 6
+2024-10-15 15:00:04,373 - INFO - Audio-only recording completed
+2024-10-15 15:00:04,373 - INFO - Output folder ensured at: /home/securemeup/recordings/2024-10-15
+2024-10-15 15:00:04,579 - INFO - Audio-only recording saved to: /home/securemeup/recordings/2024-10-15/audio_only_recoring_round_3_20241015_150004.wav
+2024-10-15 15:00:04,579 - INFO - Output folder ensured at: /home/securemeup/google-drive/dev-testing-local-to-driveg/2024-10-15
+2024-10-15 15:00:04,808 - INFO - Audio-only recording saved to: /home/securemeup/google-drive/dev-testing-local-to-driveg/2024-10-15/audio_only_recoring_round_3_20241015_150004.wav
+2024-10-15 15:00:04,808 - INFO - Audio-only recording process completed

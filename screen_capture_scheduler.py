@@ -18,7 +18,6 @@ CONFIG = {
     'CHECK_INTERVAL': 60,
     'MIN_DISK_SPACE': 1000000000,  # 1 GB in bytes
     'MAX_CPU_USAGE': 90,  # 90%
-    'SCREENSHOT_INTERVAL': 0.5,  # 2 screenshots per second
 }
 
 # Ensure the logs directory exists
@@ -36,6 +35,9 @@ logging.basicConfig(
     ]
 )
 
+def load_config():
+    with open('recording_config.json', 'r') as f:
+        return json.load(f)
 
 def load_events(batch_size=100):
     export_dir = os.path.abspath(os.path.join('.', 'media', 'exports'))
@@ -77,8 +79,6 @@ def check_system_resources():
         return False
     return True
 
-
-
 def run_screen_capture(event):
     try:
         start_time = datetime.strptime(f"{event['start_date']} {event['start_time']}", "%Y-%m-%d %H:%M:%S")
@@ -86,15 +86,18 @@ def run_screen_capture(event):
         duration = (end_time - start_time).total_seconds()
         logging.debug(f"Event duration calculated: {duration} seconds")
 
-        # Create a directory for the event
-        event_dir = os.path.join('screen_captures', event['title'])
-        os.makedirs(event_dir, exist_ok=True)
+        config = load_config()
+        output_directories = config['output_directories']
 
-        # Start screen capture process
-        capture_command = f"python3 screen_capture.py {event_dir} {duration} {CONFIG['SCREENSHOT_INTERVAL']}"
-        subprocess.Popen(capture_command, shell=True)
+        for output_dir in output_directories:
+            event_dir = os.path.join(output_dir, 'screen_captures', event['title'])
+            os.makedirs(event_dir, exist_ok=True)
 
-        logging.info(f"Started screen capture for event: {event['title']}")
+            # Start screen capture process
+            capture_command = f"python3 ffmpeg_screen_capture.py {event_dir} {duration} {event['title']}"
+            subprocess.Popen(capture_command, shell=True)
+
+            logging.info(f"Started screen capture for event: {event['title']} in directory: {event_dir}")
 
     except Exception as e:
         logging.error(f"Error running screen capture for event '{event['title']}': {e}")

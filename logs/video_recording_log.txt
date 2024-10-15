@@ -259,3 +259,12 @@
 2024-10-15 14:30:04,657 - INFO - Total frames recorded: 52099
 2024-10-15 14:30:04,974 - INFO - Audio saved to: /home/securemeup/recordings/2024-10-15/audio_viken_chloe_and_chris_sync_20241015_140104.wav
 2024-10-15 14:30:04,974 - INFO - Actual FPS: 29.94
+2024-10-15 14:49:04,513 - INFO - Script called with args: ['/home/securemeup/workspace/dev-workspace/event-scheduler-input-devices/ubuntu_create_local_singular_video_recording.py', '660.0', 'recoring_round_3']
+2024-10-15 14:49:04,513 - INFO - Parsed arguments: total_duration=660.0, event_name=recoring_round_3
+2024-10-15 14:49:04,513 - INFO - Starting video and audio recording for event: recoring_round_3
+2024-10-15 14:49:04,531 - INFO - Video capture initialized: 640x480 @ 30 fps
+2024-10-15 14:49:04,531 - INFO - Audio capture initialized: Device index 1, Sample rate: 32000
+2024-10-15 15:00:04,645 - INFO - Video saved to: /home/securemeup/recordings/2024-10-15/video_recoring_round_3_20241015_144904.mp4
+2024-10-15 15:00:04,656 - INFO - Total frames recorded: 19786
+2024-10-15 15:00:04,805 - INFO - Audio saved to: /home/securemeup/recordings/2024-10-15/audio_recoring_round_3_20241015_144904.wav
+2024-10-15 15:00:04,805 - INFO - Actual FPS: 29.98
