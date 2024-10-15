@@ -1,0 +1,78 @@
+give me the commands in ubuntu so i can ensure I grab the correct repo for this:
+Pinokio-2.15.1-arm64.AppImage
+112 MB
+last month
+Pinokio-2.15.1-arm64.dmg
+111 MB
+last month
+Pinokio-2.15.1-win32.zip
+90 MB
+last month
+Pinokio-2.15.1.aarch64.rpm
+72.1 MB
+last month
+Pinokio-2.15.1.AppImage
+112 MB
+last month
+Pinokio-2.15.1.dmg
+115 MB
+last month
+Pinokio-2.15.1.x86_64.rpm
+76 MB
+last month
+Pinokio_2.15.1_amd64.deb
+75.9 MB
+last month
+Pinokio_2.15.1_arm64.deb
+71.8 MB
+last month
+Source code
+(zip)
+Jul 25
+Source code
+(tar.gz)
+
+To ensure you grab the correct repo for Pinokio on Ubuntu, you'll want to use the .deb package that matches your system architecture. Here are the steps and commands you can use:
+
+1. First, check your system architecture:
+
+```
+uname -m
+```
+
+This will return either `x86_64` (for 64-bit Intel/AMD) or `aarch64` (for 64-bit ARM).
+
+2. Based on the output:
+
+   - If it's `x86_64`, you want the `Pinokio_2.15.1_amd64.deb` file
+   - If it's `aarch64`, you want the `Pinokio_2.15.1_arm64.deb` file
+
+3. To download the correct file, use the `wget` command. Replace `<URL>` with the actual download URL:
+
+For x86_64:
+```
+wget <URL>/Pinokio_2.15.1_amd64.deb
+```
+
+For aarch64:
+```
+wget <URL>/Pinokio_2.15.1_arm64.deb
+```
+
+4. After downloading, you can install the package using:
+
+```
+sudo dpkg -i Pinokio_2.15.1_amd64.deb
+```
+or
+```
+sudo dpkg -i Pinokio_2.15.1_arm64.deb
+```
+
+5. If there are any dependency issues, resolve them with:
+
+```
+sudo apt-get install -f
+```
+
+These commands will ensure you download and install the correct version of Pinokio for your Ubuntu system.

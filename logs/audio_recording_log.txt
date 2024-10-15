@@ -309,3 +309,14 @@ ValueError: Not an input device: 'hdmi'
 2024-10-15 15:00:04,579 - INFO - Output folder ensured at: /home/securemeup/google-drive/dev-testing-local-to-driveg/2024-10-15
 2024-10-15 15:00:04,808 - INFO - Audio-only recording saved to: /home/securemeup/google-drive/dev-testing-local-to-driveg/2024-10-15/audio_only_recoring_round_3_20241015_150004.wav
 2024-10-15 15:00:04,808 - INFO - Audio-only recording process completed
+2024-10-15 16:24:04,368 - INFO - Script called with args: ['/home/securemeup/workspace/dev-workspace/event-scheduler-input-devices/ubuntu_create_local_singular_audio_recording.py', '2160.0', 'Yacine_Yap']
+2024-10-15 16:24:04,368 - INFO - Parsed arguments: total_duration=2160.0, event_title=Yacine_Yap
+2024-10-15 16:24:04,368 - INFO - Starting audio-only recording for event: Yacine_Yap
+2024-10-15 16:24:04,369 - INFO - Audio-only recording started for 2160.0 seconds using ReSpeaker
+2024-10-15 16:24:04,369 - INFO - Device: ReSpeaker 4 Mic Array (UAC1.0): USB Audio (hw:3,0), Sample rate: 16000, Channels: 6
+2024-10-15 17:00:04,438 - INFO - Audio-only recording completed
+2024-10-15 17:00:04,438 - INFO - Output folder ensured at: /home/securemeup/recordings/2024-10-15
+2024-10-15 17:00:05,076 - INFO - Audio-only recording saved to: /home/securemeup/recordings/2024-10-15/audio_only_Yacine_Yap_20241015_170004.wav
+2024-10-15 17:00:05,076 - INFO - Output folder ensured at: /home/securemeup/google-drive/dev-testing-local-to-driveg/2024-10-15
+2024-10-15 17:00:05,702 - INFO - Audio-only recording saved to: /home/securemeup/google-drive/dev-testing-local-to-driveg/2024-10-15/audio_only_Yacine_Yap_20241015_170004.wav
+2024-10-15 17:00:05,702 - INFO - Audio-only recording process completed
