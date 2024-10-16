@@ -1,1 +1,3 @@
-logs
+# Ignore all files and subdirectories in logs and media
+logs/**
+media/**
